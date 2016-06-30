@@ -1,0 +1,26 @@
+Notas - Head First - Web Design
+
+Need to thinking in navigation twice in the design process:
+	1) Think about navigational elements (buttons and nav bars) while working in the overall layout
+	
+	2) Writing code and building the layout elements as well as linking your pages together
+
+You need to start by organizing your top level navigation. Keep your IA diagram close at hand.
+
+
+DETERMINE YOUR TOP LEVEL NAVIGATION
+
+SKETCHES KEEP THE FOCUS ON FUNCTIONALITY
+	Draw at least three more concepts on your own sheets of paper.
+
+
+========
+Terms
+
+IA (Information Architecture)
+Navigation elements
+Layout elements
+
+Blueprint
+Sketches
+Storyboards (sequence of little sketches that look like a comic strip—the film industry uses to test out shots before rolling the cameras)
