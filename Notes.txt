@@ -1,5 +1,7 @@
 Notas - Head First - Web Design
 
+http://www.headfirstlabs.com/books/hfwd/
+
 Need to thinking in navigation twice in the design process:
 	1) Think about navigational elements (buttons and nav bars) while working in the overall layout
 	
@@ -13,6 +15,21 @@ DETERMINE YOUR TOP LEVEL NAVIGATION
 SKETCHES KEEP THE FOCUS ON FUNCTIONALITY
 	Draw at least three more concepts on your own sheets of paper.
 
+CODE THE PROTOTYPE
+
+SCANNABILITY
+Instead of reading your content from left to right, beginning to end, like a book, users scan the text for keywords and concepts—to give them an idea about the contents of the page. 
+
+Scannability Checklist
+You don’t have to use them all, just the ones that work for your content.
+
+Clearly written headers
+
+Small(ish) paragraphs
+
+Use bold and italics to emphasize important words or phrases.
+
+Use lists (ordered or unordered) for appropriate content.
 
 ========
 Terms
@@ -23,4 +40,5 @@ Layout elements
 
 Blueprint
 Sketches
-Storyboards (sequence of little sketches that look like a comic strip—the film industry uses to test out shots before rolling the cameras)
+Storyboards (Sequence of little sketches that look like a comic strip—the film industry uses to test out shots before rolling the cameras) - or comp (composition)
+Wireframes - like a storyboard
