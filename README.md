@@ -2,7 +2,7 @@
 
 http://www.headfirstlabs.com/books/hfwd/
 
-##Chapter 1
+##Chapter 1. Building Beautiful Web Pages
 
 Need to thinking in navigation twice in the design process:
 	1) Think about navigational elements (buttons and nav bars) while working in the overall layout
@@ -52,7 +52,7 @@ Storyboards are a great way to catch potential design problems before you spend 
 * Web content needs to be written so that it’s scannable.
 
 
-##Chapter 2
+##Chapter 2. Pre-Production
 
 **Visual Metaphor** can range from subtle (using colors that give the user an abstract feeling that the designer wants to associate with the site’s theme) to direct (using graphics that tie right into the site’s name or identity–like using graphics of rocket ships for a site called Rocket Ship Designs).
 
@@ -65,7 +65,18 @@ Storyboards are a great way to catch potential design problems before you spend 
 * Storyboards are hand drawn concept art storyboards that are used to visualize your design as a complete entity.
 
 
-##Chapter 3
+##Chapter 3. Organizing Your Site
+
+Information architecture is just a way to organize the content you already have into groups that are meaningful and logical both for you and for your users. 
+
+Information architecture is all about taking a step back and really looking at what sort of content you’ve got... how does it all fit together?
+
+###Card Sorting
+1. A stack of 3x5 cards
+2. A pen and a clear table (or the floor)
+3. A solid idea of your site’s content
+
+![Card Sorting](imgs/card-sorting.jpg)
 
 ##Terms
 
