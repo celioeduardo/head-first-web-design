@@ -101,7 +101,7 @@ Think about it like this... most sites have links all over the place, cutting ac
 
 4 Build a storyboard (on paper).
 
-![Card Sorting](imgs/ch3 - build a storyboard on paper.jpg)
+![Card Sorting](imgs/ch3 - Build a storyboard on paper.jpg)
 
 5 Do a few card sorts and create an IA diagram.
 
