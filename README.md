@@ -5,9 +5,9 @@ http://www.headfirstlabs.com/books/hfwd/
 ##Chapter 1. Building Beautiful Web Pages
 
 Need to thinking in navigation twice in the design process:
-	1) Think about navigational elements (buttons and nav bars) while working in the overall layout
+1. Think about navigational elements (buttons and nav bars) while working in the overall layout
 	
-	2) Writing code and building the layout elements as well as linking your pages together
+2. Writing code and building the layout elements as well as linking your pages together
 
 You need to start by organizing your top level navigation. Keep your IA diagram close at hand.
 
@@ -212,6 +212,150 @@ Be careful, though. Four different colors is a lot to deal with, and you can’t
 **There’s no golden rule for color placement.**
 
 But there are definitely some **principles** you can apply:
+
+####Create contrast
+
+If you want to separate different areas of your layout (say a main column and sidebar), use **contrasting** colors. This contrast creates a border between two areas. That border lets users know that the two areas are different and probably have different functions or uses within the context of the site.
+
+![](imgs/ch5 - create contrast.jpg)
+
+####Emphasis-o-matic
+
+![](imgs/ch5 - emphasis.jpg)
+
+
+###BULLET POINTS
+* Color has a powerful impact on your site’s visitors.
+* Use the color wheel to choose colors for your site’s design.
+* Color schemes are tools to help you choose a harmonious color palette.
+* The triadic color scheme has three colors spaced equally from around the color wheel.
+* The triadic color scheme is popular because it provides strong visual contrast while retaining balance, color richness, and harmony.
+* The triadic scheme is not as contrasting as some other schemes.
+* The tetradic color scheme has 4 colors arranged into two complementary color pairs.
+* The tetradic color scheme is the richest of all the schemes.
+* The drawback to the tetradic scheme is that it’s sometimes hard to harmonize.
+* Use a tool like Kuler to create a color palette (and get the hex values of the colors in the palette).
+
+##Chapter 6. Smart Navigation
+
+###Navigation problems
+![](imgs/ch6 - navigation problems.jpg)
+![](imgs/ch6 - navigation problems comments.jpg)
+
+###The first step to good navigation is good IA
+
+The names of your links are more than just helpers for your users. They’re actually the categories that organize your entire site. And most of the time, a bad link name means someone wasn’t thinking about navigation way back at the information architecture stage.
+
+The CNM IA diagram looks like:
+
+![](imgs/ch6 - ia diagram.jpg)
+
+The IA of the CNM site seems to be organized fairly well... but the category titles are horrible. What in the world do they actually mean? 
+
+![](imgs/ch6 - ia diagram improved.jpg)
+
+####What’s really in a name, anyway?
+The names that you give your navigational elements (links, buttons, etc.) have a direct impact on the usability of your site. In other words, names are a really big deal on the Web. You should put a lot of thought into the name you use for each of your IA categories and navigational elements. Here are some general guidelines to help you come up with good names:
+
+####1. **Keep names _short_**. 
+Make sure that your names are as short as possible. You want your user to be able to scan a name quickly. One word is ideal. Only use two if you really need that extra word. Avoid using words like “the” or “a” in names, too. Those are just a wasted of space. 
+
+_Q: What if I simply can’t make the name of the navigational element one word?_
+
+A: More than one word is ok as long as its completely necessary to tell your user exactly where they will end up when they click the nav element. Pick a name that won’t lead the user down a path they didn’t want to travel, rather than one that’s just clever and articulate.
+    
+
+####2. **Keep names descriptive**. 
+Make sure that the name you choose is as clear and straight to the point as possible. You don’t want your users to look at a link and be confused. If you’re not 110% sure what a name means, your users sure won’t be, either.
+
+###The Web is both __VISUAL__ and __SEMANTIC__
+We’ve mostly been focusing on how sites look, but there’s another element to the Web: the semantic Web. Right now, our navigation links look good, but they’ve got no meaning. Really, those links are a list of items that are all part of the site’s navigation.
+
+What we need is a way to give some semantic meaning to our list of links. Of course, XHTML gives us a couple of list elements, so let’s start there:
+
+![](imgs/ch6 - semantic.jpg)
+
+####Inconsistent navigation confuses users.
+We base the way in which we interact with the world around us on the predictability of events. Every day millions of people pull up to a red light, wait for it to turn green, and then continue driving. But what if you pulled up to a red light and instead of it turning green, it turned blue? You’d probably have absolutely no clue what to do.
+Navigation works in a similar way. When a navigational system works right, people rely on it. In the CNM system, the navigation isn’t what users are expecting. That’s because it probably violates at least one of the following three principles:
+Navigation should be in a place users expect it to be: usually the top of a page or along either side.
+Links should look like links. They should appear to be “clickable” for users.
+Links should be clearly identified and separate from each other.
+
+![](imgs/ch6 - navigation examples.jpg)
+
+####The navigation icons
+
+Those little icons are terrible!
+![](imgs/ch6 - icons.jpg)
+**Confusion is the enemy of good web design. If something’s confusing to you, it will probably be VERY confusing to your users.**
+
+Icons don’t **SAY** anything... they just look pretty
+
+Yes, icons are cool little design elements. The problem is, when used for navigation, they can cause some serious problems. What does an icon mean? What happens if you click on it? Where will the site take me?
+
+What one icon represents to you might be completely different from what it represents to another person. And if you use an icon as a navigational element, your users might get the wrong impression about where they will end up if they click the icon.
+
+**When in doubt, _ADD TEXT_.**
+Sometimes you’re gonna get stuck with a bad display element, or perhaps just some meaningless or confusing icons. If you’re not able to make major changes, one easy fix is to simply add text, clarifying the icons or explaining how to use a particular page element.
+A little bit of clarifying text goes a long way to let a user know what to click or where to go on a page.
+
+###Primary navigation shouldn’t change... but secondary navigation SHOULD
+
+![](imgs/ch6 - primary navigation.jpg)
+![](imgs/ch6 - secundary navigation.jpg)
+
+**Primary navigation** applies to your **ENTIRE** site.
+**Secondary navigation** applies to the **CURRENT SECTION** of a site you’re on.
+
+###BULLET POINTS
+* Use your site’s information architecture as the foundation for navigation.
+* Primary navigation is the navigation that provides links to the main sections of the site. Secondary navigation is navigation that links to subsections of the site.
+* When naming your navigational elements, make sure you use labels that are both short and descriptive.
+* Horizontal navigation designs work particularly well with one and two-column layouts.
+* If your site has a vertical design for its primary navigation, make sure that you don’t put secondary navigational elements higher on the page.
+* The goal of navigation is to tell your users where they are in the overall architecture of your site and provide them with the means to make decisions about where they want to go from there.
+* In order to avoid confusion, make sure you keep your navigation consistent across your entire site.
+* Make sure that your users can learn your navigation system quickly.
+* Breadcrumb trails give the user a visual indication as to the location of their current page in the site’s overall information architecture.
+* Never use icons (on their own) as navigational elements—what an icon means to you could be completely different from what it means to someone else.
+* If you want to use icons as navigational elements, make sure you also use text in order to provide a clear indication of where your users will end up if they click on the link.
+
+##Chapter 7. Writing for the Web: Yes, You Scan!
+
+People don’t read text on the Web like they read text on a printed page. Instead of reading text from left to right, beginning to end, they scan it. All of the text on your site needs to be quickly **_scannable_** and **_easily digestible_** by the user. 
+
+###Mix fonts to emphasize headings and other text
+
+Using a different font for your site can dramatically change the feel and emotion of the design. On top of that, different fonts can make your text more readable and make life easier for your users. There are two distinct categories of fonts for the Web: **serif** and **sans-serif**.
+
+A mix of serif and sans-serif fonts can add a nice touch to pages and help separate content from headings. It also allows you to render serif fonts at a larger size and keep the body content in a sans-serif that can be safely displayed in a smaller size.
+
+![](imgs/ch7 - fonts mixed.jpg)
+
+**Serif** fonts look like Times New Roman and are defined by the small projections—or “serifs”—that extend off the main stroke of the character.
+
+**Sans-serif** means “without (sans) serif” and is composed of font families like Helvetica and Arial. Sans-serif fonts are easier to read on screen because the relatively low resolution of computer monitors makes serif fonts look blurry, especially at smaller sizes.
+
+This doesn’t mean you can’t use serif fonts on the Web; they just need to be used properly and rendered large enough so that they can be easily read by your users.
+
+http://www.webstyleguide.com/type/face.html
+
+###The level, not the size, of a heading conveys importance
+
+HTML comes out of the box with six different header levels: < h1> through < h6>. With no stylesheet (just the naked markup), most browsers will render < h1> in the largest text and < h6> in the smallest.
+
+Remember, HTML’s a markup language and isn’t intended to convey style information. The different heading levels are used to signify importance in your content. A level one heading < h1> is the most important heading, < h2> is the next-most important, and so on.
+
+###BULLET POINTS
+* People read text off of a screen 15% slower than off a printed page.
+* The low resolution of monitors (compared to a printed page) often results in eye straining–making it uncomfortable to read text off a screen.
+* On the Web, people don’t read text like they do on a printed page. Instead, they scan it, looking for keywords, sentences, and paragraphs that are meaningful to them.
+* Write your text like an inverted pyramid—with a general summary at the beginning and detail after. The idea is that users can stop reading at any time and still be confident in the fact that they’ve already gotten the most important pieces of information.
+* Always write at least 15% less text for a website than you would for a print document.
+* Use lists to break up large blocks of text and give the user’s eye something to latch onto when they are scanning your page.
+* Headers make text more scannable. Not only do they break up large blocks of text, but they also tell the user what the paragraph is about.
+* Sans-serif fonts are easier to read on a screen than serif fonts, especially at smaller font sizes.
 
 ##Terms
 
