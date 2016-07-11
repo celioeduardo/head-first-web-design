@@ -1,5 +1,7 @@
 #Head First - Web Design
 
+![](imgs/capa.jpg)
+
 http://www.headfirstlabs.com/books/hfwd/
 
 ##Chapter 1. Building Beautiful Web Pages
